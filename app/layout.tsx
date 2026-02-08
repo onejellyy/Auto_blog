@@ -4,7 +4,7 @@ import Script from "next/script";
 import "./globals.css";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://onejelly02.vercel.app";
-const adsenseClient = process.env.NEXT_PUBLIC_ADSENSE_CLIENT;
+const adsenseClient = process.env.NEXT_PUBLIC_ADSENSE_CLIENT ?? "ca-pub-7094140389853787";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
