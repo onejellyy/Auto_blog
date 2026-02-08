@@ -40,6 +40,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <nav className="text-sm text-muted">
               <div className="flex items-center gap-4">
                 <Link href="/">Home</Link>
+                <Link href="/games">미니게임</Link>
                 <Link href="/privacy">Privacy</Link>
                 <Link href="/ads">Ads</Link>
               </div>
